@@ -9,6 +9,7 @@ function App() {
       <Header />
       <div>
         <p>Hello World!</p>
+        <p>Foo Bar!</p>
       </div>
     </>
   )
