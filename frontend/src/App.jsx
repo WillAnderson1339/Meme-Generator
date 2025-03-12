@@ -9,7 +9,7 @@ function App() {
       <Header />
       <div>
         <p>Hello World!</p>
-        <p>Foo Bar!</p>
+        <p>Foo Bar!  resolved!  Yay!</p>
       </div>
     </>
   )
