@@ -12,11 +12,11 @@ function Main() {
     })
 
     function handleChange(event) {
-        const {value} = event.currentTarget
+        const {value, name} = event.currentTarget
         console.log("Text Changed: ", value)
         setMeme(prevMeme => ({
             ...prevMeme, 
-            topText: value
+            [name]: value
         }))
     }
 
