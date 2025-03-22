@@ -55,7 +55,8 @@
   }
 
   .meme img {
-    width: 100%; /* Ensures the image scales properly */
+    /* width: 100%; */
+    width: 500px; /* Ensures the image scales properly */
     display: block; /* Removes any extra spacing below the image */
     margin: auto;
     padding: 10px;
